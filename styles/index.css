@@ -1,0 +1,977 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #a5a4a9;
+    background-color: black;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+
+
+/* Navbar styling */
+.navbar{
+    background-color:#e9e6e6d7;
+}
+
+
+/* Logo part */
+.navbar-brand{
+    margin-left: 20px;
+}
+
+/* Button part */
+.navbar-toggler{
+    margin-right: 20px;
+}
+
+.navbar-nav{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 200px;
+}
+
+.navbar:hover{
+    background-color: #beb6b6d7;
+}
+
+
+
+/*  To enlarge the size of HOME link when hover */
+.nav-link:hover{
+    transform: scale(1.3);
+    /* font-size: 20px; */
+}
+
+/* For smooth transition of hover on HOME link */
+.nav-link{
+    margin-right: 50px;
+    transition: transform 1s;
+} 
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color:#ffbe00
+}
+
+/* Navbar styling ends */
+
+
+
+
+/* Content styling */
+
+
+
+
+/* Content head styling */
+.img1-fluid{
+    position:absolute;
+    width:18rem;
+    height:20rem;
+    left:auto;
+    top:26rem;
+}
+
+
+.img2-fluid{ 
+    position:absolute;
+    width:12rem;
+    height:20rem;
+    left:auto;
+    top:10rem;
+
+}
+
+
+.img3-fluid{ 
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    left: 15rem;
+    top: 22rem;
+}
+
+
+.heading-one{
+    position: absolute;
+    width: auto;
+    height: 5rem;
+    left: 30rem;
+    top: 22rem;
+
+    font-family: 'IM FELL Great Primer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 2rem;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+
+    border: 2px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.img6-fluid{ 
+    position: absolute;
+    width: 32rem;
+    height:2rem;
+    left: 30rem;
+    top: 25rem;
+}
+
+
+.p1{
+    position: absolute;
+    width:auto;
+    height: auto;
+    left:25rem;
+    top: 450px;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight:400;
+    font-size: 20px;
+    line-height:3rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn{
+    position:absolute;
+    width:auto;
+    height:auto;
+    left:41rem;
+    top:40rem;
+    background-color:blue;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    /* margin-left: 150px; */
+}
+
+
+
+.img4-fluid{ 
+    position: absolute;
+    width: 15rem;
+    height: 21rem;
+    left: 75rem;
+    top: 25rem;
+}
+
+
+.img5-fluid{ 
+    position: absolute;
+    width: 8rem;
+    height:6rem;
+    left: 70rem;
+    top: 42rem;
+    /* margin-left: 80px; */
+}
+
+/* Content head styling ends */
+
+
+
+
+
+
+
+
+/* .btn{
+    color: firebrick;
+    background-color: rgb(235, 138, 11);
+    border-radius: 0.25rem;
+} 
+
+
+.btn:hover{
+    cursor: pointer;
+    color: rgb(227, 110, 20);
+}
+
+
+.btn:active{
+    background-color: dodgerblue;
+}
+
+
+.btn{
+    position: absolute;
+    width: rem;
+    height: rem;
+    left: 40rem;
+    top: 40rem;
+
+    background: linear-gradient(180deg, #DBAE10 0%, rgba(249, 2, 2, 0) 100%);
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+} */
+
+
+
+
+/* Content item styling */
+.img7-fluid{
+    position: absolute;
+    width: auto;
+    height: 10rem;
+    left: 10rem;
+    top:60rem;
+    /* margin-left: 300px; */
+    /* margin-right: 950px; */
+
+}
+
+.img8-fluid{
+    position: absolute;
+    width: auto;
+    height: 10rem;
+    left: 27rem;
+    top: 60rem;
+    /* margin-left: 190px; */
+}
+
+
+.img9-fluid{
+    position: absolute;
+    width: auto;
+    height: 10rem;
+    left: 44rem;
+    top: 60rem;
+    /* margin-left: 80px; */
+}
+
+
+.img10-fluid{
+    position: absolute;
+    width: auto;
+    height: 10rem;
+    left: 63rem;
+    top: 60rem;
+}
+
+
+.heading-two{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left:10rem;
+    top: 65rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 137px;
+    /* identical to box height  */
+    text-align: center;
+    color: #FFFFFF; 
+    /* margin-left: 300px; */
+ } 
+
+
+.heading-three{
+    position: absolute;
+    width: 972px;
+    height: 137px;
+    left:2rem;
+    top: 65rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 137px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    /* margin-left: 180px; */
+    
+}
+
+
+.heading-four{
+    position: absolute;
+    width: 972px;
+    height: 137px;
+    left:19rem;
+    top: 65rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 137px;
+    /* identical to box height */      
+    text-align: center;      
+    color: #FFFFFF;
+    /* margin-left: 230px; */
+}
+
+
+.heading-five{
+    position: absolute;
+    width: 972px;
+    height: 137px;
+    left:38rem;
+    top: 65rem;        
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 137px;
+    /* identical to box height */    
+    text-align: center;   
+    color: #FFFFFF;
+    /* margin-left: 280px; */
+}
+
+
+.p2{
+    position: absolute;
+    width:auto;
+    height:auto;
+    left: 8rem;
+    top: 71rem;
+
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:auto;
+    text-align: center;
+    color: #FFFFFF; 
+    /* margin-left: 150px;         */
+}
+
+
+.p3{
+    position: absolute;
+    width:auto;
+    height:auto;
+    left: 27rem;
+    top: 71rem;  
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:auto;
+    text-align: center;
+    color: #FFFFFF;   
+    /* margin-left: 210px;       */
+}
+
+
+
+.p4{
+    position: absolute;
+    width:auto;
+    height:auto;
+    left: 44rem;
+    top: 71rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:auto;
+    text-align: center;
+    color: #FFFFFF;  
+    /* margin-left: 80px;  */
+}
+
+
+
+.p5{
+    position: absolute;
+    width:auto;
+    height:auto;
+    left: 62rem;
+    top: 71rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height:auto;
+    text-align: center;
+    color: #FFFFFF;  
+    /* margin-left: 290px;        */
+}
+
+/* Content item styling ends */
+
+
+
+
+/* Content about styling */
+
+.img11-fluid{
+    position: absolute;
+    max-width: auto;
+    height:28rem;
+    left: 12rem;
+    top: 90rem;
+    transform: rotate(0.17deg);
+    /* margin-left: 110px; */
+}
+
+
+.img12-fluid{
+    position: absolute;
+    max-width: auto;
+    height:25rem;
+    left:0rem;
+    top: 100rem;
+    transform: rotate(0.17deg);
+    /* margin-left: 90px; */
+}
+
+
+.heading-six{
+    position: absolute;
+    width:auto;
+    height: auto;
+    left: 280px;
+    top: 110rem;
+    font-family: 'Inspiration';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 349px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    /* margin-left: 80px; */
+}   
+
+
+.heading-seven{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left:800px;
+    top: 86rem;
+
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 181px;
+    text-align: center;
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+    /* margin-left: 300px; */
+}
+
+
+.heading-eight{
+    position: absolute;
+    width: auto;
+    height:auto;
+    left: 800px;
+    top: 94rem;
+
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: auto;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.055em;
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-left: 150px; */
+
+}
+
+
+.img13-fluid{
+    position: absolute;
+    width: 32rem;
+    height:2rem;
+    left:800px;
+    top:97rem;
+    /* margin-left: 180px; */
+}
+
+.p6{
+    position: absolute;
+    width: auto;
+    height:auto;
+    left: 800px;
+    top: 1580px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: auto;
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+    /* margin-left: 190px; */
+} 
+
+
+.p7{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 800px;
+    top: 1800px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: auto;
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+    /* margin-left: 150px; */
+
+}
+
+
+/* Content about styling ends */
+
+
+
+
+
+
+
+
+/* Content gallery styling */
+.heading-nine
+{
+    position: absolute;
+    width: auto;
+    height:auto;
+    left: 625px;
+    top: 2150px;
+
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height:auto;
+    /* identical to box height */
+
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+    /* margin-left: 150px; */
+}
+
+
+.img14-fluid{
+    position: absolute;
+    width:auto;
+    height:auto;
+    left:530px;
+    top:137rem;
+    /* margin-left: 135px; */
+}
+
+
+.img15-fluid{
+    position: absolute;
+    width: auto;
+    height:auto;
+    left:90px;
+    top: 2300px;
+}
+
+
+.img16-fluid{
+    position: absolute;
+    width: 20rem;
+    height:27rem;
+    left:550px;
+    top: 2300px;   
+    /* margin-left: 120px;    */
+}
+
+
+.img17-fluid{
+    position: absolute;
+    width: 20rem;
+    height:27rem;
+    left:980px;
+    top: 2300px;   
+    /* margin-left: 250px;   */
+}
+
+
+.btn1{
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 197, 11);
+    left:40rem;
+    top:175rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    /* margin-left: 120px; */
+}
+
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* content gallery styling ends */
+
+
+
+
+
+
+
+/* Content bestseller styling */
+
+.heading-ten{
+    position: absolute;
+    width: auto;
+    height:auto;
+    left: 612px;
+    top: 3010px;
+
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height:auto;
+    /* identical to box height */
+
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+    /* margin-left: 150px; */
+}
+
+
+.img18-fluid{
+    position: absolute;
+    width:auto;
+    height:auto;
+    left:530px;
+    top:191rem;
+    /* margin-left: 135px; */
+}
+
+
+
+.btn2{
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 197, 11);
+    left:15rem;
+    top:195rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    /* cursor:auto; */
+}
+
+.row .btn2{
+    cursor: auto;
+}
+
+
+.btn3{
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 197, 11);
+    left:40rem;
+    top:195rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    /* margin-left: 220px; */
+
+}
+
+.row .btn3{
+    cursor: auto;
+}
+
+.btn4{
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 197, 11);
+    left:65rem;
+    top:195rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    /* margin-left: 350px; */
+
+}
+.row .btn4{
+    cursor: auto;
+}
+
+.btn5{
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 197, 11);
+    left:27rem;
+    top:200rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    /* margin-left: 120px; */
+
+}
+.row .btn5{
+    cursor: auto;
+}
+
+.btn6{
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 197, 11);
+    left:54rem;
+    top:200rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    /* margin-left: 260px; */
+
+}
+
+.row .btn6{
+    cursor: auto;
+}
+
+
+.btn7{
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 197, 11);
+    left:15rem;
+    top:205rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+
+}
+.row .btn7{
+    cursor: auto;
+}
+
+
+.btn8{
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 197, 11);
+    left:40rem;
+    top:205rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    /* margin-left: 220px; */
+
+}
+.row .btn8{
+    cursor: auto;
+}
+
+
+.btn9{
+    position:absolute;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(225, 197, 11);
+    left:65rem;
+    top:205rem;
+    font-family: 'Iowan Old Style';
+    font-style: normal;
+    /* margin-left: 350px; */
+
+}
+.row .btn9{
+    cursor: auto;
+}
+
+
+/* Content bestseller styling ends */
+
+
+
+
+
+
+/* Content client styling */
+
+.heading-eleven{
+    position: absolute;
+    width: auto;
+    height:auto;
+    left: 130px;
+    top: 3500px;
+    font-family: 'Irish Grover';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height:auto;
+    /* identical to box height */
+
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+
+    /* margin-left: 110px; */
+
+}
+
+
+.img19-fluid{
+    position: absolute;
+    width:auto;
+    height:auto;
+    left:12rem;
+    top:222rem;
+    /* margin-left: 140px; */
+}
+
+
+.p8{
+    position: absolute;
+    width: auto;
+    height:auto;
+    left: 130px;
+    top: 3600px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: auto;
+    letter-spacing: 0.055em;
+
+    color: #FFFFFF;
+    /* margin-left: 120px; */
+} 
+
+
+.img20-fluid{
+    position: absolute;
+    width:450px;
+    height:auto;
+    left:920px;
+    top: 3500px;
+    /* margin-left: 190px; */
+}
+
+
+.img21-fluid{
+    position: absolute;
+    width: 300px;
+    height:240px;
+    left:790px;
+    top: 3750px;
+    /* margin-left: 100px; */
+}
+
+
+/* Content client styling ends */
+
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+/* FOOTER STYLING */
+
+
+/* For all the contents inside footer */
+footer{
+    margin-top: 235%;
+    background-color: black; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+/* For all the footer items */
+.footer-item {
+    margin-bottom: 30px;
+}
+
+
+/* For Quick link part inside footer */
+.footer-item .footer-link h3 {
+    color: #ffbe00;
+    margin-bottom: 20px;
+}
+
+
+.footer-item .footer-link ul li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+
+.footer-link ul li a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+/* Ends quick link part inside footer */
+
+
+
+
+/* For Contact part inside footer */
+.footer-item .footer-service h3 {
+    color: #ffbe00;
+    margin-bottom: 20px;
+}
+
+
+.footer-item .footer-service ul li {
+    color: #ffffff;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.footer-service ul li a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.footer-service ul li img{
+    background-color: #ffffff;
+
+}
+
+/* Footer styling ends */

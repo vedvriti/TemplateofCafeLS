@@ -1,0 +1,168 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #a5a4a9;
+    background-color: black;
+}
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+
+
+/* Navbar styling */
+.navbar{
+    background-color:#e9e6e6d7;
+}
+
+
+/* Logo part */
+.navbar-brand{
+    margin-left: 20px;
+}
+
+/* Button part */
+.navbar-toggler{
+    margin-right: 20px;
+}
+
+.navbar-nav{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 200px;
+}
+
+.navbar:hover{
+    background-color: #beb6b6d7;
+}
+
+
+
+/*  To enlarge the size of HOME link when hover */
+.nav-link:hover{
+    transform: scale(1.3);
+    /* font-size: 20px; */
+}
+
+/* For smooth transition of hover on HOME link */
+.nav-link{
+    margin-right: 50px;
+    transition: transform 1s;
+} 
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+    color:#ffbe00
+}
+
+/* Navbar styling ends */
+
+
+
+
+
+
+/* Menu styling */
+
+
+.collection-item .collection-top img {
+    width: 60%;
+    border-radius: 15px 15px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.pb-70 {
+    padding-bottom: 20px;
+}
+
+.pt-100 {
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* FOOTER STYLING */
+
+
+/* For all the contents inside footer */
+footer{
+    background-color: black; 
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+/* For all the footer items */
+.footer-item {
+    margin-bottom: 30px;
+}
+
+
+/* For Quick link part inside footer */
+.footer-item .footer-link h3 {
+    color: #ffbe00;
+    margin-bottom: 20px;
+}
+
+
+.footer-item .footer-link ul li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+
+.footer-link ul li a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+/* Ends quick link part inside footer */
+
+
+
+
+/* For Contact part inside footer */
+.footer-item .footer-service h3 {
+    color: #ffbe00;
+    margin-bottom: 20px;
+}
+
+
+.footer-item .footer-service ul li {
+    color: #ffffff;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.footer-service ul li a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.footer-service ul li img{
+    background-color: #ffffff;
+
+}
+
+/* Footer styling ends */
